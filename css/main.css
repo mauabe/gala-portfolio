@@ -6452,7 +6452,7 @@ body {
   color: #fff;
   height: 300px;
   margin-bottom: 30px; }
-  .main-header h1 {
+  .main-header h1, .main-header h2 {
     margin: 0;
     padding-top: 30px; }
 
@@ -6470,3 +6470,11 @@ body {
 
 .footer-copyright {
   background: #cfd8dc; }
+
+.modal {
+  color: #333; }
+
+.row-1,
+.row-2,
+.row-3 {
+  opacity: 0; }

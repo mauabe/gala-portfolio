@@ -13,7 +13,6 @@ $header-height: 300px;
   }
 }
 
-
 body {
   background: $primary-color;
   color: set-text-color($primary-color);
@@ -25,7 +24,7 @@ body {
   height: $header-height;
   margin-bottom: 30px;
 
-  h1 {
+  h1, h2 {
     margin: 0;
     padding-top: 30px;
   }
@@ -48,4 +47,14 @@ body {
 
 .footer-copyright {
   background: $secondary-color-light;
+}
+
+.modal {
+  color: #333;
+}
+
+.row-1, 
+.row-2, 
+.row-3 {
+  opacity: 0;
 }
